@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #9fbdbf;
+	font-family: 'Nunito', sans-serif;
+}
+
+header h1 {
+	padding: 5px;
+	color: #4f4834;
+	text-align: center;
+}
+
+.content {
+	padding: 20px;
+	background-image: url("../img/back.jfif");
+	height: 610px;
+	margin-left: 40px;
+	margin-right: 40px;
+	background-size: cover;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	position: relative;
+	text-align: center;
+}
+
+.content h2 {
+	padding: 20px;
+	text-align: center;
+	color: #394666;
+}
+
+.content ul {
+	list-style: none;
+	line-height: 200%;
+	font-size: 1.2em;
+	color: #ab328b;
+}
+.content ul a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #7b6344;
+}
+
+footer {
+	padding:20px;
+	text-align: center;
+}
+
+footer p {
+	color: #4f4834;
+}
+
+footer a {
+	text-decoration: none;
+	color: #7b6344;
+}
