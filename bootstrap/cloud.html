@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE-edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title>Рейтинг фильмов</title>
+		<title>Фильмы</title>
 		<link rel="shortcut icon" href="assets/img/bobines.png" type="image/png">
 		<!--Bootstrap-->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
@@ -37,6 +37,7 @@
 
 						</div>
 
+
 						<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 							
 							<span class="sr-only">Toggle navigation</span>
@@ -52,9 +53,9 @@
 
 							<ul class="nav nav-pills">
 								<li><a href="index.html">Главная</a></li>
-								<li><a href="films.html">Фильмы</a></li>
+								<li class="active"><a href="films.html">Фильмы</a></li>
 								<li><a href="series.html">Сериалы</a></li>
-								<li class="active"><a href="rating.html">Рейтинг фильмов</a></li>
+								<li><a href="rating.html">Рейтинг фильмов</a></li>
 								<li><a href="contact.html">Контакты</a></li>
 
 							</ul>
@@ -86,58 +87,48 @@
 						</div>
 					</form>
 
-					<h1>Рейтинг фильмов</h1>
+					<h1>Облачный атлас</h1>
 					<hr>
 
-					<table class="table table-striped">
-						<thead>
-							<tr>
-								<th></th>
-								<th>Фильм</th>
-								<th class="text-center">Год</th>
-								<th class="text-center">Рейтинг</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="col-lg-1 col-md-1 col-xs-2">
-									<img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="Интерстеллар">
-								</td>
-								<td class="vert-align"><a href="show.html">Интерстеллар</a></td>
-								<td class="text-center vert-align">2014</td>
-								<td class="text-center vert-align"><span class="badge">8.1</span></td>
-							</tr>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-1tW0iG3DPA?showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+					<div class="well info-block text-center">
+						Год: <span class="badge">2012</span>
+						Рейтинг: <span class="badge">8.0</span>
+						Режиссеры: <span class="badge">Лана Вачовски, Том Тыквер, Лилли Вачовски</span>
+					</div>
 
-							<tr>
-								<td class="col-lg-1 col-md-1 col-xs-2">
-									<img class="img-responsive img-thumbnail" src="assets/img/cloud.png" alt="Облачный атлас">
-								</td>
-								<td class="vert-align"><a href="cloud.html">Облачный атлас</a></td>
-								<td class="text-center vert-align">2012</td>
-								<td class="text-center vert-align"><span class="badge">8.0</span></td>
-							</tr>
+					<div class="margin-8"></div>
 
-							<tr>
-								<td class="col-lg-1 col-md-1 col-xs-2">
-									<img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Матрица: Революция">
-								</td>
-								<td class="vert-align"><a href="matrix.html">Матрица: Революция</a></td>
-								<td class="text-center vert-align">2003</td>
-								<td class="text-center vert-align"><span class="badge">7.9</span></td>
-							</tr>
+					<h2>Описание Облачный атлас</h2>
+					<hr>
 
-							<tr>
-								<td class="col-lg-1 col-md-1 col-xs-2">
-									<img class="img-responsive img-thumbnail" src="assets/img/max.png" alt="Безумный Макс">
-								</td>
-								<td class="vert-align"><a href="max.html">Безумный Макс</a></td>
-								<td class="text-center vert-align">2015</td>
-								<td class="text-center vert-align"><span class="badge">7.8</span></td>
-							</tr>
-						</tbody>
-						
+					<div class="well">
+						Шесть историй - пять реинкарнаций, происходящих в разное время, тесно переплетаются между собой...
+					</div>
 
-					</table>
+					<div class="margin-8"></div>
+
+					<h2>Отзывы об Облачный атлас</h2>
+					<hr>
+
+					<div class="panel panel-info">
+						<div class="panel-heading"><i class="glyphicon glyphicon-user"></i> <span>Ольга</span> </div>
+						<div class="panel-body">
+							Фильм понравился, буду пересматривать ещё и ещё.
+						</div>
+					</div>
+
+					<form>
+						<div class="form-group">
+							<input type="text" placeholder="ваше имя" class="form-control input-lg">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control"></textarea>
+						</div>
+						<button class="btn btn-lg btn-warning pull-right">отправить</button>
+					</form>
 
 					<div class="margin-8 clear"></div>
 
@@ -232,6 +223,7 @@
 			<div class="clear"></div>
 
 		</div>
+
 
 		<footer>
 
