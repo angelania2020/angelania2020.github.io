@@ -1,47 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Моё портфолио</title>
-	<link rel="shortcut icon" href="assets/img/coding.png" type="image/png">
-	<meta name="description" content="Портфолио начинающего программиста" />
-	<meta name="keywords" content="программирование, html, bootstrap" />
-	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&display=swap" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Portfolio" />
+        <meta name="author" content="Angelina Prokofjeva" />
+        <title>Portfolio - Angelina Prokofjeva</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/laptop.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Angelina Prokofjeva</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-lg mx-auto mb-2" src="assets/img/angelina.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#web">Web Development</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#design">Design Works</a></li>
+                </ul>
+            </div>
 
-<body>
-	<main>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Angelina
+                        <span class="text-info">Prokofjeva</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        📱 +372 55661148 ·
+                        <a class="text-info" href="mailto:angelina.prokofjeva@gmail.com">📫 angelina.prokofjeva@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">
+                        - 👋 Hello, I am currently studying software development in IVKHK, Sillamäe, Estonia. <br>
+                        - 👩‍💻 I became interested in programming since early childhood, when I started creating my own websites using HTML and JavaScript.<br>
+                        - 👍 I am a hard-working person and a quick learner. I truly enjoy the process of programming. I am able to communicate with clients in Russian, English and Estonian languages.<br>
+                        - 🌱 My main goal now is to learn Python, PHP, SQL, HTML and CSS.<br>
+                        - 💞️ I am looking forward to joining a friendly team of other developers and creating awesome UX/UI websites for organizations.<br>
+                        </p>
+                    <div class="social-icons">
+                        <a class="social-icon" title="GitHub" href="https://github.com/angelania2020"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>       
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 text-info">Ida-Virumaa Vocational Education Centre</h3>
+                            <div class="subheading mb-3">Junior Software Developer, EstQF Level 4</div>
+                            <div>Junior Software Developer Program</div>
+                            <p>Average Mark (31.03.21): 5.00</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2020 - ...</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python text-info" title="Python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-html5 text-info" title="HTML5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt text-info" title="CSS3"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square text-info" title="JavaScript"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap text-info" title="Bootstrap"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-database text-info" title="SQL"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-php text-info" title="PHP"></i></li>
+                        
+                    </ul>
+                    <div class="subheading mb-3">Design Programs</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-info"></i></span>
+                            Adobe Illustrator
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-info"></i></span>
+                            Inkscape
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-info"></i></span>
+                            Photopea
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check text-info"></i></span>
+                            Figma
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Certifications-->
+            <section class="resume-section" id="certifications">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-award text-warning"></i></span>
+                            <a class="text-info" href="https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/116~675057/pdf">Internet History, Technology, and Security - University of Michigan Online Course</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!--Web-->
+            <section class="resume-section" id="web">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Web Development</h2>
+                        <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a class="text-info" href="kinobaza">HTML/CSS website</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a class="text-info" href="bootstrap">Bootstrap Website</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a class="text-info" href="arkanoid">JavaScript Game</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a class="text-info" href="drum_player">jQuery drum player</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a class="text-info" href="calc">AJAX Currency Converter</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a class="text-info" href="landing_page">Landing Page (in process)</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Design -->
+            <section class="resume-section" id="design">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Design Works</h2>
+                    <div class="subheading mb-3">Figma</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapseExample">Icons</a>
+                            <div class="collapse" id="collapse1">
+                                <br>
+                                <div>
+                                    <img class="my-border" height="378" width="654" src="assets/img/icons.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapseExample">Frames</a>
+                            <div class="collapse" id="collapse2">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/frames.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapseExample">Food App For Mobile</a>
+                            <div class="collapse" id="collapse3">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/mobile.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse4" role="button" aria-expanded="false" aria-controls="collapseExample">Food App For Desktop</a>
+                            <div class="collapse" id="collapse4">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/desktop-1.png" alt="">
+                                    <img class="card-img my-border" src="assets/img/desktop-2.png" alt="">
+                                    <img class="card-img my-border" src="assets/img/desktop-3.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse5" role="button" aria-expanded="false" aria-controls="collapseExample">Landing Page</a>
+                            <div class="collapse" id="collapse5">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/landing.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
 
-		<header>
-			<div class="header_heading"></div>
-			<h1>Я начинающий, но способный разработчик ПО!</h1>
-		</header>
-
-		<div class="content">
-			<section>
-				<h2>Мои работы</h2>
-				<ul class="my_works">
-					<li><a href="kinobaza">Сайт на чистом HTML/CSS</a></li>
-					<li><a href="bootstrap">Сайт на Bootstrap</a></li>
-					<li><a href="arkanoid">Игра на JavaScript</a></li>
-					<li><a href="drum_player">jQuery drum проигрыватель</a></li>
-					<li><a href="calc">Конвертер валют на AJAX</a></li>
-					<li><a href="#">Landing page</a></li>
-				</ul>
-			</section>
-		</div>
-
-		<footer>
-			<p>
-				Готова к сотрудничеству!
-				mailto: <a href="mailto:angelina@admin.ee">angelina.prokofjeva@gmail.com</a>
-				<br>
-				Иконка сделана <a href="https://www.flaticon.com/authors/kiranshastry" title="Kiranshastry">Kiranshastry</a> <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
-		</footer>
-
-	</main>
-</body>
+                    </ul>
+                    <br><hr><br>
+                    <div class="subheading mb-3">Photopea</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse6" role="button" aria-expanded="false" aria-controls="collapseExample">Patterns</a>
+                            <div class="collapse" id="collapse6">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/pattern1.png" alt="">
+                                    <img class="card-img my-border" src="assets/img/pattern2.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse7" role="button" aria-expanded="false" aria-controls="collapseExample">Buttons & Login Form</a>
+                            <div class="collapse" id="collapse7">
+                                <br>
+                                <div>
+                                    <img class="my-border" src="assets/img/buttons.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse8" role="button" aria-expanded="false" aria-controls="collapseExample">Cutting Out an Image with Pen Tool</a>
+                            <div class="collapse" id="collapse8">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/woman.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse9" role="button" aria-expanded="false" aria-controls="collapseExample">Photo Editing</a>
+                            <div class="collapse" id="collapse9">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/dove.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse10" role="button" aria-expanded="false" aria-controls="collapseExample">Website Layout</a>
+                            <div class="collapse" id="collapse10">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border2" src="assets/img/layout.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                    <br><hr><br>
+                    <div class="subheading mb-3">Inkscape</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse11" role="button" aria-expanded="false" aria-controls="collapseExample">Icons</a>
+                            <div class="collapse" id="collapse11">
+                                <br>
+                                <div>
+                                    <img width="756" height="378" class="my-border" src="assets/img/vector_icons.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse12" role="button" aria-expanded="false" aria-controls="collapseExample">Vectorizing Raster Image</a>
+                            <div class="collapse" id="collapse12">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/vectorizing.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse13" role="button" aria-expanded="false" aria-controls="collapseExample">Calendar</a>
+                            <div class="collapse" id="collapse13">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/calendar.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                    <br><hr><br>
+                    <div class="subheading mb-3">Adobe Illustrator</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse14" role="button" aria-expanded="false" aria-controls="collapseExample">Business Card</a>
+                            <div class="collapse" id="collapse14">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/card.jpg" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse15" role="button" aria-expanded="false" aria-controls="collapseExample">New Year Card</a>
+                            <div class="collapse" id="collapse15">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/newyear.jpg" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-chevron-right"></i></span>
+                            <a data-toggle="collapse" role="button" class="text-info" href="#collapse16" role="button" aria-expanded="false" aria-controls="collapseExample">Logotype</a>
+                            <div class="collapse" id="collapse16">
+                                <br>
+                                <div>
+                                    <img class="card-img my-border" src="assets/img/logo.png" alt="">
+                                </div>
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
